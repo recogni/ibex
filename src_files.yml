@@ -58,3 +58,13 @@ ibex_regfile_fpga:
     rtl/ibex_register_file_fpga.sv,
   ]
 
+ibex_regfile_asic:
+  targets: [
+    rtl,
+  ]
+  incdirs: [
+  ]
+  files: [
+    rtl/ibex_register_file_ff.sv,
+  ]
+
