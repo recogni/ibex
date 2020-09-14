@@ -22,6 +22,10 @@ ibex:
     rtl/ibex_prefetch_buffer.sv,
     rtl/ibex_fetch_fifo.sv,
     rtl/ibex_pmp.sv,
+    rtl/ibex_icache.sv,
+    rtl/ibex_branch_predict.sv,
+    rtl/ibex_dummy_instr.sv,
+    rtl/ibex_register_file_fpga.sv,
     rtl/ibex_core.sv,
     vendor/lowrisc_ip/prim/rtl/prim_assert.sv,
   ]
